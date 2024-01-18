@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dhruvarth.TeamVision.PustakParab.DbService\Dhruvarth.TeamVision.PustakParab.DbService.csproj" />
+    <ProjectReference Include="..\Dhruvarth.TeamVision.PustakParab.Models\Dhruvarth.TeamVision.PustakParab.Models.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dhruvarth.TeamVision.PustakParab.API", "Dhruvarth.TeamVision.PustakParab.API\Dhruvarth.TeamVision.PustakParab.API.csproj", "{BB922E2D-B7E7-4915-B25E-19F93F0F3C3F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dhruvarth.TeamVision.PustakParab.DbService", "Dhruvarth.TeamVision.PustakParab.DbService\Dhruvarth.TeamVision.PustakParab.DbService.csproj", "{04BFC832-C30F-495E-B5AE-5B58C2F93AE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dhruvarth.TeamVision.PustakParab.Models", "Dhruvarth.TeamVision.PustakParab.Models\Dhruvarth.TeamVision.PustakParab.Models.csproj", "{F7016CFC-2718-4CA4-A840-713BB010F6B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dhruvarth.TeamVision.PustakParab.Services", "Dhruvarth.TeamVision.PustakParab.Services\Dhruvarth.TeamVision.PustakParab.Services.csproj", "{23D9B0C2-59CD-40EC-9DA2-B58D38892A85}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dhruvarth.TeamVision.PustakParab.Utility", "Dhruvarth.TeamVision.PustakParab.Utility\Dhruvarth.TeamVision.PustakParab.Utility.csproj", "{FF6072B5-8760-4DCC-AAA9-85000ACD18E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB922E2D-B7E7-4915-B25E-19F93F0F3C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB922E2D-B7E7-4915-B25E-19F93F0F3C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB922E2D-B7E7-4915-B25E-19F93F0F3C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB922E2D-B7E7-4915-B25E-19F93F0F3C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04BFC832-C30F-495E-B5AE-5B58C2F93AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04BFC832-C30F-495E-B5AE-5B58C2F93AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04BFC832-C30F-495E-B5AE-5B58C2F93AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04BFC832-C30F-495E-B5AE-5B58C2F93AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7016CFC-2718-4CA4-A840-713BB010F6B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7016CFC-2718-4CA4-A840-713BB010F6B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7016CFC-2718-4CA4-A840-713BB010F6B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7016CFC-2718-4CA4-A840-713BB010F6B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D9B0C2-59CD-40EC-9DA2-B58D38892A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D9B0C2-59CD-40EC-9DA2-B58D38892A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D9B0C2-59CD-40EC-9DA2-B58D38892A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D9B0C2-59CD-40EC-9DA2-B58D38892A85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF6072B5-8760-4DCC-AAA9-85000ACD18E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF6072B5-8760-4DCC-AAA9-85000ACD18E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF6072B5-8760-4DCC-AAA9-85000ACD18E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF6072B5-8760-4DCC-AAA9-85000ACD18E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36B92C92-4AF4-4EE6-879B-DD93C4471BF6}
+	EndGlobalSection
+EndGlobal
