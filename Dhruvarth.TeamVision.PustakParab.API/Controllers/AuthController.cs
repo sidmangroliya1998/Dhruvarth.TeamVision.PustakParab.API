@@ -22,8 +22,8 @@ namespace Dhruvarth.TeamVision.PustakParab.API.Controllers
         }
 
         [AllowAnonymous]
-        [HttpGet("Login")]
-        public async Task<ResponseModel> LogIn([FromQuery] LoginRequest _loginRequest)
+        [HttpPost("Login")]
+        public async Task<ResponseModel> LogIn([FromBody] LoginRequest _loginRequest)
         {
             try
             {
@@ -33,7 +33,7 @@ namespace Dhruvarth.TeamVision.PustakParab.API.Controllers
                     var claims = new[] { new Claim(ClaimTypes.MobilePhone, Convert.ToString(_loginRequest.MPIN)) };
                     string uniqueid = DateTime.Now.ToString("yyyyMMddHHmmss");
 
-                    var jwtResult = jwtAuthManager.GenerateTokens(Convert.ToString(user.MMobileNo), Convert.ToString(_loginRequest.MPIN), claims, DateTime.Now, uniqueid);
+                    var jwtResult = jwtAuthManager.GenerateTokens(Convert.ToString(user.MobileNo), Convert.ToString(user.PIN), claims, DateTime.Now, uniqueid);
                     user.Token = jwtResult.AccessToken;
                     user.RefreshToken = Convert.ToString(jwtResult.RefreshToken);
                     return new ResponseModel(200, "User available", user);
